@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --font-color:#DCD7C9;
+    --p-color:#3F4E4F;
+    --header-color:#2C3639;
+
+}
+
+.nav-item .nav-link{
+    text-transform: capitalize;
+}
+.home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.home .text-home{
+    height:100vh;
+    color: var(--font-color);
+    
+}
+
+
+.about .about-text p ,
+.about .about-text h4 ,
+.about .about-text div i,
+.our-offer .location-text h3,
+.our-offer .location-text p,
+.gallery .baking-body h5, 
+.gallery .baking-body p, 
+.contact .text-location h4 ,
+.contact .text-location  p ,
+.contact .text-location  i  {
+    color: var(--p-color);
+}
+
+.gallery .baking-header h3 , 
+.gallery .baking-header p  {
+    color: var(--header-color);
+}
+
+/* #B09B71 */
+
+
+
+
+
+
+.icons i p{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.our-offer ,.contact {
+    background-color: #f6f6f6;
+}
+
+.inner{
+    background-color: #f6f6f6;
+}
+
+
+.button-of-home .button1 , .button2  {
+    border-color: transparent;
+    background-color:transparent ;
+    color: var(--font-color);
+    transition: all .5s ease-in-out;
+}
+
+.button-of-home .button1{
+    background-color: #3F4E4F;
+    color:#DCD7C9 ;
+}
+
+.button2:hover ,.button1:hover{
+    background-color: #3F4E4F;
+    color:#DCD7C9 ;
+}
+/* Set the size of the div element that contains the map */
+
+.footer{
+    background-color: #2C3639;
+    height: 150px;
+}
+
+.footer-text h2 {
+    color: var(--font-color);
+}
